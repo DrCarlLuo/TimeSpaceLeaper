@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &497048430578498693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497048430578498694}
+  - component: {fileID: 497048430578498695}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497048430578498694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497048430578498693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &497048430578498695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497048430578498693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5744fbb47a93fd47b7e4d945586eec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeStateManagerPrefab: {fileID: 7030876061711374216, guid: 2271a89c2a9eba44f8c105f019251cdd,
+    type: 3}
+  GhostManagerPrefab: {fileID: 6629978947718919315, guid: 4d565bca18626f249ad8aeda660743c8,
+    type: 3}
+  PlayerPrefab: {fileID: 6533544486605308108, guid: 0c86d0688fa81954c917bb8b985a457d,
+    type: 3}
+  FXManagerPrefab: {fileID: 6421683139351952758, guid: 14d9cf26dbd8c9a45a024ab45f6b190b,
+    type: 3}
+  PauseMenuPrefab: {fileID: 5297521032437711422, guid: b3f869b6cfa99534e9167b1b2d58a0f2,
+    type: 3}
+  SoundManagerPrefab: {fileID: 8803708298932414690, guid: 1d8fc6d22cb019a43965e7db5a2570af,
+    type: 3}
+  FirstSceneName: SampleScene
+  GameStateNow: 0
+  CurrentSceneRoot: {fileID: 0}
+  TimeScaleBeforePause: 0

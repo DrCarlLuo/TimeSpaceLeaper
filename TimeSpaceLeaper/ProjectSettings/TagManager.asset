@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GhostPlayer
+  - IgnoreCopy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - VFX
+  - Player
+  - GhostPlayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3366239543
+    locked: 0
+  - name: BackFX
+    uniqueID: 839709293
+    locked: 0
+  - name: Level
+    uniqueID: 2114545385
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ScreenVFX
+    uniqueID: 201687401
+    locked: 0
+  - name: Player
+    uniqueID: 1409474765
+    locked: 0
